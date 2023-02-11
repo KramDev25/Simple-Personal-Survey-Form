@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Survey Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Personal Survey Form:</h1>
+    </div>
+    <hr>
+    <div>
+    <div class="form">
+        <form action="mailto:markbryanesportono0825@gmail.com" method="post" enctype="text/plain" target="_blank">
+
+            <div class="fullname">
+                <h2>Full name:</h2>
+                <label for="surname">Surname:</label>
+                <input type="text" name="Surname:" id="text" required>
+                <label for="firstname">Firstname:</label>
+                <input type="text" name="Firstname:" id="text" required>
+                <label for="middlename">Middlename:</label>
+                <input type="text" name="Middlename:" id="text" required>
+            </div>
+
+            <hr>
+
+            <div class="birthday">
+                <h2>Birthday:</h2>
+                <label for="date of birth">Date of Birth:</label>
+                <input type="date" name="Birth date:" id="date" required>
+                <label for="birth place">Birth Place:</label>
+                <input type="text" name="Birth Place:" id="text" required>
+            </div>
+
+            <hr >
+
+            <div class="gender">
+                <h2>Gender:</h2>
+                <input type="radio" name="Gender:" id="radio" value="Male" >
+                <label for="Gender">Male</label>
+                <input type="radio" name="Gender:" id="radio" >
+                <label for="Gender">Female</label>
+            </div>
+
+            <hr>
+
+            <div class="status">
+                <h2>Relatioship Status:</h2>
+                        <input type="radio" name="Status:" id="radio" value="Single">
+                        <label for="Status">Single.</label>
+                
+                        <input type="radio" name="Status:" id="radio" value="In a Relationship">
+                        <label for="Status">In a Relationship.</label>
+                
+               
+                        <input type="radio" name="Status:" id="radio" value="Married">
+                        <label for="Status">Married.</label>
+                
+               
+                        <input type="radio" name="Status:" id="radio" value="Divorced">
+                        <label for="Status">Divorced</label>
+            </div>
+
+            <div class="submit">
+                <input type="submit" class="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
